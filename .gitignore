@@ -1,0 +1,21 @@
+# Node.js y dependencias (por si agregamos paquetes en el futuro)
+node_modules/
+package-lock.json
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de entorno (si agregamos configuración en el futuro)
+.env
+
+# Caché de JavaScript y dependencias
+npm-debug.log
+yarn-error.log
+
+# Ignorar archivos de pruebas temporales
+tests/temp/
+
+# Archivos de compilación (por si usamos herramientas como Babel o Webpack más adelante)
+dist/
+build/
